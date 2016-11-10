@@ -1,0 +1,38 @@
+p {
+    color: black;
+}
+ul li {
+    padding: 10px 0;
+}
+h1 {
+    text-align: center;
+    font-family: Courier, Helvetica, Times, Serif;
+    background-color: cornflowerblue;
+}
+h3 {
+    text-align: center;
+    font-family: Cursive, Helvetica, Times, Serif;
+}
+img {
+    display: block;
+}
+#upperPictures , .img {
+    float: left;
+}
+#upperText .p {
+    /*issue here with both inline block and clear both*/
+    display: inline-block;
+    font-size: 200%;
+    height: 700px;
+    width: 800px;
+    clear: both;
+    background-color: cornflowerblue;
+}
+#lowerText {
+    float: left;
+    font-size: 200%;
+    background-color: cornflowerblue;
+}
+#lowerPictures {
+    float:right;
+}
