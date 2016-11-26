@@ -1,13 +1,19 @@
 body {
   background-image: url("Chef_Pictures/BG.png");
 }
+/* Need fo figure out how to select Titles */
+head > title {
+  font-family: fantasy, cursive, serif;
+}
 p {
     color: black;
+    font-family: fantasy, cursive, serif;
 }
 ul li {
     padding: 10px 0;
 }
 h1 {
+    font-family: fantasy, cursive, serif;
     text-align: center;
     font-family: Courier, Helvetica, Times, Serif;
     background-color: #e6b800;
@@ -20,24 +26,29 @@ h3 {
 img {
     display: block;
 }
-#upperPictures , .img {
+#upperPictures > img {
     float: left;
-    height: 100%;
-    width: 100%;
+    height: 25%;
+    width: 25%;
+    display: inline;
 }
 #upperText {
+  display: inline;
+}
+#upperText > p {
     /*issue here with both inline block and clear both*/
-    display: inline-block;
+
     font-size: 200%;
-    height: 800px;
+    height: 950px;
     width: 600px;
     /*should it be clear both?*/
-    clear: both;
+    clear: right;
     background-color: #C5D5EA;
     border: black solid;
     overflow: hidden;
 }
 #lowerText {
+    font-family: fantasy, cursive, serif;
     float: left;
     font-size: 200%;
     background-color: #C5D5EA;
@@ -46,4 +57,11 @@ img {
 }
 #lowerPictures {
     float:right;
+}
+
+#ladyPicture {
+
+}
+#aboutUs {
+  display: inline-block;
 }
