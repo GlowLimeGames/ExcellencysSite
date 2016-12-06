@@ -1,41 +1,82 @@
 body {
-  background: lavender;
+  background-image: url("Chef_Pictures/BG.png");
+}
+/* Need fo figure out how to select Titles */
+head title {
+  font-family: fantasy, cursive, serif;
 }
 p {
     color: black;
+    font-family: Avenir Next, cursive, serif;
+    text-align: center;
 }
 ul li {
     padding: 10px 0;
 }
 h1 {
+    font-family: cursive, serif;
     text-align: center;
     font-family: Courier, Helvetica, Times, Serif;
-    background-color: cornflowerblue;
+    background-color: #e6b800;
 }
 h3 {
     text-align: center;
-    font-family: Cursive, Helvetica, Times, Serif;
+    font-family: Avenir Next, Helvetica, Times, Serif;
+    background-color: #cc2900;
 }
 img {
     display: block;
+    padding: 10px;
 }
-#upperPictures , .img {
-    float: left;
+#header {
+  font-family: fantasy;
+  color: white;
 }
-#upperText .p {
-    /*issue here with both inline block and clear both*/
-    display: inline-block;
+
+#leftBanner {
+  opacity: 0.5;
+  float: left;
+  display: inline-block;
+}
+#upperText {
     font-size: 200%;
-    height: 700px;
+    height: 850px;
     width: 800px;
-    clear: both;
-    background-color: cornflowerblue;
+    float: center;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
 }
+#upperText img {
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
+#upperText h1 {
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
 #lowerText {
+    font-family: Avenir Next, serif;
     float: left;
     font-size: 200%;
-    background-color: cornflowerblue;
-}
+    }
+
 #lowerPictures {
     float:right;
+}
+
+#aboutUs {
+  display: inline-block;
+}
+#downloadHere {
+  display: block;
+}
+#glowLimeSymbol {
+  display:inline-block;
 }
