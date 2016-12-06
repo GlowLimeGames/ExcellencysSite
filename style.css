@@ -2,66 +2,81 @@ body {
   background-image: url("Chef_Pictures/BG.png");
 }
 /* Need fo figure out how to select Titles */
-head > title {
+head title {
   font-family: fantasy, cursive, serif;
 }
 p {
     color: black;
-    font-family: fantasy, cursive, serif;
+    font-family: Avenir Next, cursive, serif;
+    text-align: center;
 }
 ul li {
     padding: 10px 0;
 }
 h1 {
-    font-family: fantasy, cursive, serif;
+    font-family: cursive, serif;
     text-align: center;
     font-family: Courier, Helvetica, Times, Serif;
     background-color: #e6b800;
 }
 h3 {
     text-align: center;
-    font-family: Cursive, Helvetica, Times, Serif;
+    font-family: Avenir Next, Helvetica, Times, Serif;
     background-color: #cc2900;
 }
 img {
     display: block;
+    padding: 10px;
 }
-#upperPictures > img {
-    float: left;
-    height: 25%;
-    width: 25%;
-    display: inline;
+#header {
+  font-family: fantasy;
+  color: white;
+}
+
+#leftBanner {
+  opacity: 0.5;
+  float: left;
+  display: inline-block;
 }
 #upperText {
-  display: inline;
-}
-#upperText > p {
-    /*issue here with both inline block and clear both*/
-
     font-size: 200%;
-    height: 950px;
-    width: 600px;
-    /*should it be clear both?*/
-    clear: right;
-    background-color: #C5D5EA;
-    border: black solid;
+    height: 850px;
+    width: 800px;
+    float: center;
+    display: inline-block;
     overflow: hidden;
+    position: relative;
 }
+#upperText img {
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
+#upperText h1 {
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
 #lowerText {
-    font-family: fantasy, cursive, serif;
+    font-family: Avenir Next, serif;
     float: left;
     font-size: 200%;
-    background-color: #C5D5EA;
-    border-color: black;
-    border-style: solid;
-}
+    }
+
 #lowerPictures {
     float:right;
 }
 
-#ladyPicture {
-
-}
 #aboutUs {
   display: inline-block;
+}
+#downloadHere {
+  display: block;
+}
+#glowLimeSymbol {
+  display:inline-block;
 }
