@@ -6,12 +6,13 @@ head title {
   font-family: fantasy, cursive, serif;
 }
 p {
-    color: black;
+    color: white;
     font-family: Avenir Next, cursive, serif;
     text-align: center;
 }
 ul li {
     padding: 10px 0;
+    color: white;
 }
 h1 {
     font-family: cursive, serif;
