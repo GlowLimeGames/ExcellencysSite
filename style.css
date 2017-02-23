@@ -1,71 +1,56 @@
-body {
-  background-image: url("Chef_Pictures/BG.png");
+@font-face {
+    font-family: Kingthings;
+    src: url(fonts/kingthings_calligraphica_2.ttf);
 }
+body {
+  background-image: url("Chef_Pictures/woodbackground.jpg");
+	}
 /* Need fo figure out how to select Titles */
 head title {
-  font-family: fantasy, cursive, serif;
+  font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
 }
 p {
-    color: white;
-    font-family: Avenir Next, cursive, serif;
-    text-align: center;
+	font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
+   	font-size: 24px;
+	color: black;
+	text-align: center;
 }
 ul li {
     padding: 10px 0;
-    color: white;
 }
 h1 {
-    font-family: cursive, serif;
+    font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
     text-align: center;
-    font-family: Courier, Helvetica, Times, Serif;
-    background-color: #e6b800;
-}
-h3 {
-    text-align: center;
-    font-family: Avenir Next, Helvetica, Times, Serif;
-    background-color: #cc2900;
-}
+    }
+h2 {
+	font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
+	text-align: center;
+	}
+h3 {  
+    font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
+    }
 img {
     display: block;
     padding: 10px;
 }
 #header {
-  font-family: fantasy;
+  font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
   color: white;
 }
 
-#leftBanner {
-  opacity: 0.5;
-  float: left;
-  display: inline-block;
-}
 #upperText {
-    font-size: 200%;
-    height: 850px;
-    width: 800px;
-    float: center;
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
-}
-#upperText img {
-  position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.2;
-}
-#upperText h1 {
-    padding: 200px;
-    position: relative;
-    z-index: 2;
-    color: white;
-  }
+    font-size: 24;
+	padding-top: 50px;
+	margin-top: 20%;
+	margin-left: 25%;
+	margin-right: 25%;
+        width: 55%;
+    }
+ 
 #lowerText {
-    font-family: Avenir Next, serif;
-    float: left;
-    font-size: 200%;
+    font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
+    font-size: 28px;
+	margin-left: 25%;
     }
 
 #lowerPictures {
@@ -75,9 +60,15 @@ img {
 #aboutUs {
   display: inline-block;
 }
-#downloadHere {
-  display: block;
-}
-#glowLimeSymbol {
-  display:inline-block;
-}
+#footer {
+	width: 200px;
+	height: 100px;
+	padding: 10px;
+	float: right;
+	margin-right: 25%;
+	position: relative;
+	top: -70px;
+	font-size: 24;
+	font-family: Kingthings;
+	color: #016837;
+	}
