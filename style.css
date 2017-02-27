@@ -5,15 +5,50 @@
 body {
   background-image: url("Chef_Pictures/woodbackground.jpg");
 	}
-/* Need fo figure out how to select Titles */
-head title {
-  font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
-}
+#scroll img{
+	width:100%;
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	z-index: -1; 
+	}
+#scroll1 img{
+	width:100%;
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	z-index: -1; 
+	}
+#scroll2 img{
+	width:100%;
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	z-index: -1; 
+	}
+#scroll3 img{
+	width:100%;
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	z-index: -1; 
+	}
+#scroll4 img{
+	width:100%;
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	z-index: -1; 
+	}
+
 p {
 	font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
-   	font-size: 24px;
+   	font-size: 18pt;
 	color: black;
 	text-align: center;
+}
+a {
+    color: #ab0000;
 }
 ul li {
     padding: 10px 0;
@@ -29,46 +64,325 @@ h2 {
 h3 {  
     font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
     }
-img {
-    display: block;
-    padding: 10px;
-}
-#header {
-  font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
-  color: white;
+
+#header img {
+	width: 40%;
+	position: absolute;
+	top: 50px;
+	left: 30%; 
+	z-index: 1; 
 }
 
 #upperText {
-    font-size: 24;
-	padding-top: 50px;
-	margin-top: 20%;
-	margin-left: 25%;
-	margin-right: 25%;
-        width: 55%;
+	font-size: 12pt;
+	margin-top: 25%;
+	margin-left: 20%;
+	margin-right: 20%;
     }
  
 #lowerText {
-    font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
-    font-size: 28px;
-	margin-left: 25%;
+	font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
+	font-size: 18pt;
+	margin-left: 22%;
+	margin-right: 22%;
     }
 
-#lowerPictures {
-    float:right;
-}
-
-#aboutUs {
-  display: inline-block;
-}
-#footer {
+#glowlimecontainer {
+	position: relative;
+	float: right;
+	margin-right: 20%;
+	padding: 10px;	
 	width: 200px;
+	}
+
+#glowlime {
+	position: absolute;
 	height: 100px;
 	padding: 10px;
-	float: right;
-	margin-right: 25%;
-	position: relative;
-	top: -70px;
-	font-size: 24;
+	font-size: 14pt;
 	font-family: Kingthings;
 	color: #016837;
 	}
+#download {
+	width: 500px;
+	margin-left: 20%;
+	font-family: Kingthings;
+	font-size: 28px;
+}
+#download img{
+width: 500px; 
+}
+#windows{
+	float: left; 
+	margin-left:80px; 
+	position: relative; 
+	top:-20px;
+}
+#mac{
+	float: right; 
+	margin-right:80px; 
+	position: relative; 
+	top:-20px;>
+}
+
+/* Mobile Responsive*/
+
+@media (min-width: 1101px) {
+
+	#scroll1{
+		display: none;
+		}
+	#scroll2{
+		display: none;
+		}
+	#scroll3{
+		display: none;
+		}
+	#scroll4{
+		display: none;
+		}
+	#glowlime {
+		top: -150px;
+		}
+	}
+
+
+
+@media (min-width:1101px) and (max-width: 1400px) {
+	
+
+	#header img {
+		top: 30px;
+		}
+
+	#upperText {
+		font-size: 10pt;
+		}
+
+	#lowerText {
+		font-size: 16pt;
+		}
+
+	#download {
+		width: 60%;
+	
+		}
+
+	#download img {
+		float: left;
+		width: 60%;
+		}
+
+	#windows {
+		display: block;
+		float: right;
+		margin-left: 5%;
+		margin-right: 12%;
+		top: 20px;
+		}
+
+	#mac {
+		display: block;
+		margin-left: 5%;
+		margin-right: 12%; 
+		top: 60px;
+		}
+	#glowlime {
+		top: 120px;
+		}
+
+    }
+
+@media (min-width: 815px) and (max-width: 1100px){
+	#scroll{
+		display: none;
+		}
+	#scroll1{
+		display: block;
+		}
+	#scroll2{
+		display: none;
+		}
+	#scroll3{
+		display: none;
+		}
+	#scroll4{
+		display: none;
+		}
+	#header img {
+		top: 20px;
+		}
+	#upperText {
+		font-size: 10pt;
+		}
+
+	#lowerText {
+		font-size: 16pt;
+		}
+}
+
+@media (min-width: 601px) and (max-width: 815px){
+	#scroll{
+		display: none;
+		}
+	#scroll1{
+		display: none;
+		}
+	#scroll2{
+		display: block;
+		}
+	#scroll3{
+		display: none;
+		}
+	#scroll4{
+		display: none;
+		}
+	#header img {
+		top: 20px;
+		}
+	#upperText {
+		font-size: 10pt;
+		}
+
+	#lowerText {
+		font-size: 16pt;
+		}
+	#download{
+		width: 60%;
+		font-size: 14pt;
+
+		}
+	#download img{
+		float: left;
+		width: 100%;
+			
+		}
+}
+
+
+@media (min-width: 401px) and (max-width: 600px) {
+	#scroll{
+		display: none;
+		}
+	#scroll1{
+		display: none;
+		}
+	#scroll2{
+		display: none;
+		}
+	#scroll3{
+		display: block;
+		}
+	#scroll4{
+		display: none;
+		}
+	#header img {
+		top: 10px;
+		}
+
+	#upperText {
+		font-size: 8pt;
+		}
+	
+	#lowerText {
+		font-size: 12pt;
+		}
+
+	#download{
+		width: 60%;
+		font-size: 14pt;
+
+		}
+	#download img{
+		float: left;
+		width: 100%;
+			
+		}
+	#windows{
+		margin-left: 30px;
+		}		
+	#mac{
+		margin-right: 30px;
+		}
+	#glowlime{
+		top: 0px;
+		}
+
+    }
+
+
+@media (max-width: 468px) {
+
+	#upperText {
+		font-size: 9pt;
+		}
+	
+	#lowerText {
+		font-size: 12pt;
+		}
+
+	#screenshot{
+		display: none;
+		}
+	#windows{
+		float: left;
+		display: block;
+		margin-left: 20px;
+		}		
+	#mac{
+		float: left;
+		display: block;
+		margin-left: 20px;
+		}
+	
+}
+
+
+@media (max-width: 400px) {
+	#scroll{
+		display: none;
+		}
+	#scroll1{
+		display: none;
+		}
+	#scroll2{
+		display: none;
+		}
+	#scroll3{
+		display: none;
+		}
+	#scroll4{
+		display: block;
+		}
+	#header img {
+		top: 8px;
+		}
+	#upperText {
+		font-size: 7pt;
+		}
+	
+	#lowerText {
+		font-size: 12pt;
+		}
+	#download{
+		width: 60%;
+		font-size: 14pt;
+
+		}
+	#download img{
+		float: left;
+		width: 100%;
+			
+		}
+	#glowlimecontainer {
+		margin-left: 25%;
+		width: 55%;
+		}
+	#glowlime {
+		font-size: 10pt;
+		}
+	#glowlime img{
+		width: 100%;
+		}
+	
+}
