@@ -3,43 +3,23 @@
     src: url(fonts/kingthings_calligraphica_2.ttf);
 }
 body {
-  background-image: url("chef_pictures/woodbackground.jpg");
+	background-image: url("chef_Pictures/woodbackground.jpg");
 	}
-#scroll img{
-	width:100%;
-	position: absolute; 
-	left: 0px; 
-	top: 0px; 
-	z-index: -1; 
-	}
-#scroll1 img{
-	width:100%;
-	position: absolute; 
-	left: 0px; 
-	top: 0px; 
-	z-index: -1; 
-	}
-#scroll2 img{
-	width:100%;
-	position: absolute; 
-	left: 0px; 
-	top: 0px; 
-	z-index: -1; 
-	}
-#scroll3 img{
-	width:100%;
-	position: absolute; 
-	left: 0px; 
-	top: 0px; 
-	z-index: -1; 
-	}
-#scroll4 img{
-	width:100%;
-	position: absolute; 
-	left: 0px; 
-	top: 0px; 
-	z-index: -1; 
-	}
+
+#scrollmid {
+	background-image: url("chef_Pictures/scrollmiddle.png");
+	background-size: 100%;
+	background-repeat: repeat-y;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 100px;
+	position: relative;
+	top: -50px;
+	z-index: -1;
+}
 
 p {
 	font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
@@ -68,14 +48,14 @@ h3 {
 #header img {
 	width: 40%;
 	position: absolute;
-	top: 50px;
+	top: 38px;
 	left: 30%; 
 	z-index: 1; 
 }
 
 #upperText {
 	font-size: 12pt;
-	margin-top: 25%;
+	margin-top: 50px;
 	margin-left: 20%;
 	margin-right: 20%;
     }
@@ -129,18 +109,7 @@ width: 500px;
 
 @media (min-width: 1101px) {
 
-	#scroll1{
-		display: none;
-		}
-	#scroll2{
-		display: none;
-		}
-	#scroll3{
-		display: none;
-		}
-	#scroll4{
-		display: none;
-		}
+	
 	#glowlime {
 		top: -150px;
 		}
@@ -150,10 +119,6 @@ width: 500px;
 
 @media (min-width:1101px) and (max-width: 1400px) {
 	
-
-	#header img {
-		top: 30px;
-		}
 
 	#upperText {
 		font-size: 10pt;
@@ -190,27 +155,15 @@ width: 500px;
 	#glowlime {
 		top: 120px;
 		}
-
+	#scrollmid{
+		padding-bottom: 360px;
+		}
     }
 
 @media (min-width: 815px) and (max-width: 1100px){
-	#scroll{
-		display: none;
-		}
-	#scroll1{
-		display: block;
-		}
-	#scroll2{
-		display: none;
-		}
-	#scroll3{
-		display: none;
-		}
-	#scroll4{
-		display: none;
-		}
+	
 	#header img {
-		top: 20px;
+		top: 36px;
 		}
 	#upperText {
 		font-size: 10pt;
@@ -219,26 +172,16 @@ width: 500px;
 	#lowerText {
 		font-size: 16pt;
 		}
+	
+	#scrollmid{
+		padding-bottom: 200px;
+		}
 }
 
 @media (min-width: 601px) and (max-width: 815px){
-	#scroll{
-		display: none;
-		}
-	#scroll1{
-		display: none;
-		}
-	#scroll2{
-		display: block;
-		}
-	#scroll3{
-		display: none;
-		}
-	#scroll4{
-		display: none;
-		}
+	
 	#header img {
-		top: 20px;
+		top: 34px;
 		}
 	#upperText {
 		font-size: 10pt;
@@ -257,27 +200,17 @@ width: 500px;
 		width: 100%;
 			
 		}
+	
+	#scrollmid{
+		padding-bottom: 400px;
+		}
 }
 
 
 @media (min-width: 401px) and (max-width: 600px) {
-	#scroll{
-		display: none;
-		}
-	#scroll1{
-		display: none;
-		}
-	#scroll2{
-		display: none;
-		}
-	#scroll3{
-		display: block;
-		}
-	#scroll4{
-		display: none;
-		}
+	
 	#header img {
-		top: 10px;
+		top: 32px;
 		}
 
 	#upperText {
@@ -306,6 +239,10 @@ width: 500px;
 		}
 	#glowlime{
 		top: 0px;
+		}
+	
+	#scrollmid{
+		padding-bottom: 340px;
 		}
 
     }
@@ -339,23 +276,9 @@ width: 500px;
 
 
 @media (max-width: 400px) {
-	#scroll{
-		display: none;
-		}
-	#scroll1{
-		display: none;
-		}
-	#scroll2{
-		display: none;
-		}
-	#scroll3{
-		display: none;
-		}
-	#scroll4{
-		display: block;
-		}
+	
 	#header img {
-		top: 8px;
+		top: 30px;
 		}
 	#upperText {
 		font-size: 7pt;
@@ -383,6 +306,10 @@ width: 500px;
 		}
 	#glowlime img{
 		width: 100%;
+		}
+	
+	#scrollmid{
+		padding-bottom: 300px;
 		}
 	
 }
