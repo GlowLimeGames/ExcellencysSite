@@ -3,11 +3,11 @@
     src: url(fonts/kingthings_calligraphica_2.ttf);
 }
 body {
-	background-image: url("chef_Pictures/woodbackground.jpg");
+	background-image: url("chef_pictures/woodbackground.jpg");
 	}
 
 #scrollmid {
-	background-image: url("chef_Pictures/scrollmiddle.png");
+	background-image: url("chef_pictures/scrollmiddle.png");
 	background-size: 100%;
 	background-repeat: repeat-y;
 	margin-top: 10px;
