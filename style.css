@@ -3,11 +3,11 @@
     src: url(fonts/kingthings_calligraphica_2.ttf);
 }
 body {
-	background-image: url("chef_Pictures/woodbackground.jpg");
+	background-image: url("chef_pictures/woodbackground.jpg");
 	}
 
 #scrollmid {
-	background-image: url("chef_Pictures/scrollmiddle.png");
+	background-image: url("chef_pictures/scrollmiddle.png");
 	background-size: 100%;
 	background-repeat: repeat-y;
 	margin-top: 10px;
@@ -15,10 +15,9 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	padding-top: 10px;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 	position: relative;
 	top: -50px;
-	z-index: -1;
 }
 
 p {
@@ -45,12 +44,18 @@ h3 {
     font-family: Kingthings, Brush Script Std, Brush Script MT, cursive;
     }
 
+
+#scrolltop {
+	position: relative;
+	z-index: 1;
+}
+
 #header img {
 	width: 40%;
 	position: absolute;
 	top: 38px;
 	left: 30%; 
-	z-index: 1; 
+	z-index: 2; 
 }
 
 #upperText {
@@ -107,11 +112,14 @@ width: 500px;
 
 /* Mobile Responsive*/
 
-@media (min-width: 1101px) {
+@media (min-width: 1251px) {
 
 	
 	#glowlime {
 		top: -150px;
+		}
+#scrollmid{
+		padding-bottom: 100px;
 		}
 	}
 
@@ -128,39 +136,9 @@ width: 500px;
 		font-size: 16pt;
 		}
 
-	#download {
-		width: 60%;
-	
-		}
-
-	#download img {
-		float: left;
-		width: 60%;
-		}
-
-	#windows {
-		display: block;
-		float: right;
-		margin-left: 5%;
-		margin-right: 12%;
-		top: 20px;
-		}
-
-	#mac {
-		display: block;
-		margin-left: 5%;
-		margin-right: 12%; 
-		top: 60px;
-		}
-	#glowlime {
-		top: 120px;
-		}
-	#scrollmid{
-		padding-bottom: 360px;
-		}
     }
 
-@media (min-width: 815px) and (max-width: 1100px){
+@media (min-width: 815px) and (max-width: 1250px){
 	
 	#header img {
 		top: 36px;
@@ -173,9 +151,7 @@ width: 500px;
 		font-size: 16pt;
 		}
 	
-	#scrollmid{
-		padding-bottom: 200px;
-		}
+	
 }
 
 @media (min-width: 601px) and (max-width: 815px){
@@ -199,10 +175,6 @@ width: 500px;
 		float: left;
 		width: 100%;
 			
-		}
-	
-	#scrollmid{
-		padding-bottom: 400px;
 		}
 }
 
@@ -241,10 +213,6 @@ width: 500px;
 		top: 0px;
 		}
 	
-	#scrollmid{
-		padding-bottom: 340px;
-		}
-
     }
 
 
@@ -308,8 +276,6 @@ width: 500px;
 		width: 100%;
 		}
 	
-	#scrollmid{
-		padding-bottom: 300px;
-		}
+	
 	
 }
