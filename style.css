@@ -76,7 +76,7 @@ h3 {
 	position: relative;
 	float: right;
 	margin-right: 20%;
-	padding: 10px;	
+	padding: 20px;	
 	width: 200px;
 	}
 
@@ -96,29 +96,31 @@ h3 {
 }
 #download img{
 width: 500px; 
+padding-top: 15px;
+
 }
 #windows{
 	float: left; 
 	margin-left:80px; 
 	position: relative; 
-	top:-20px;
+	top:5px;
 }
 #mac{
 	float: right; 
 	margin-right:80px; 
 	position: relative; 
-	top:-20px;>
+	top:5px;>
 }
 
 /* Mobile Responsive*/
 
-@media (min-width: 1251px) {
+@media (min-width: 1351px) {
 
 	
 	#glowlime {
 		top: -150px;
 		}
-#scrollmid{
+	#scrollmid{
 		padding-bottom: 100px;
 		}
 	}
@@ -138,7 +140,7 @@ width: 500px;
 
     }
 
-@media (min-width: 815px) and (max-width: 1250px){
+@media (min-width: 815px) and (max-width: 1350px){
 	
 	#header img {
 		top: 36px;
@@ -176,6 +178,9 @@ width: 500px;
 		width: 100%;
 			
 		}
+#scrollmid{
+		padding-bottom: 320px;
+		}
 }
 
 
@@ -210,9 +215,11 @@ width: 500px;
 		margin-right: 30px;
 		}
 	#glowlime{
-		top: 0px;
+		top: 10px;
 		}
-	
+	#scrollmid{
+		padding-bottom: 265px;
+		}
     }
 
 
@@ -246,7 +253,7 @@ width: 500px;
 @media (max-width: 400px) {
 	
 	#header img {
-		top: 30px;
+		top: 34px;
 		}
 	#upperText {
 		font-size: 7pt;
@@ -275,7 +282,10 @@ width: 500px;
 	#glowlime img{
 		width: 100%;
 		}
-	
+	#scrollmid{
+		padding-bottom: 275px;
+		margin-top: 12px;
+		}
 	
 	
 }
